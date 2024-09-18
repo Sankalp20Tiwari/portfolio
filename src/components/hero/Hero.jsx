@@ -55,7 +55,7 @@ function Hero() {
                 <motion.button variants={textVariants}>See the latest work</motion.button>
                 <motion.button variants={textVariants}>Contact Me</motion.button>
             </motion.div>
-            <motion.img variants={textVariants} animate="scrollButton" src="/scroll.png" alt="" />
+            <motion.img variants={textVariants} animate="scrollButton" src="/images/scroll.png" alt="" />
         </motion.div>
         </div>
         <motion.div className="slidingTextContainer" initial="initial" animate="animate" variants={sliderVariants}>

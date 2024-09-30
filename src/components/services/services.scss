@@ -113,11 +113,21 @@
         max-width: 1366px;
         margin: auto;
 
+        
+        .moreInfo {
+            margin-top: 10px;
+            font-style: italic;
+            color: orange;
+            display: flex;
+            align-items: center; // or any color that fits your design
+        }
 
         @include  mobile{
             flex-direction: column;
             align-items: center;    
-            width: 100%;    
+            width: 100%; 
+            
+            
         }
         .box{
            padding: 50px;
